@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pediatric Diagnostic System</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="preloader">
+            <div id="loop" class="center"></div>
+            <div id="bike-wrapper" class="center">
+                <div id="bike" class="centerBike"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="bg-light p-3 m-3">
+                        <div class="text-center">
+                            <h4>Pediatric Diagnostic System</h4>
+                            <i class="text-center">Group 2</i>
+                            <hr>
+                            <div class="text-start">
+                                <i>Please enter the baby's symptoms to begin.</i>
+                            </div>
+                        </div>
+                        <div id="responses">
+                            
+                        </div>
+                        <form id="prompt-diagnose">
+                            <div class="row align-items-center">
+                                <div class="col-md-10">
+                                    <textarea class="form-control prompt-input" id="" rows="2"></textarea>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="submit" id="diagnose-btn" class="btn btn-success">Diagnose</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
